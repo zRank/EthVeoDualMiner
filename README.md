@@ -1,5 +1,5 @@
 # EthVeoDualMiner
-This is a dual miner for Ethereum and Amoveo. The hash rate is 94-98% of Ethminer plus 42-59% of Amoveo speeds depending on your GPU model.
+This is a dual miner for Ethereum and Amoveo. The hash rate is 98% of Ethminer plus 59-42% of Amoveo speeds depending on your GPU model.
 
 EthVeoDualMiner has builds for Windows and Ubuntu, and it works with both NVidia and AMD GPUs.
 
