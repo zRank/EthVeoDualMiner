@@ -51,4 +51,4 @@ sudo apt-get install libcurl4-gnutls-dev libjansson-dev libssl-dev
 * EthVeoDualMiner supports Stratum and ETH-Proxy protocols for Ethereum. It has been tested against Ethermine and DwarfPool.
 
 ## Developer Fee
-This software is free to use. It has an effective total developer fee of 0.8%. It mines with a 0% Eth mining fee and a 2% AmoVeo mining fee.
+This software has an effective total developer fee of 0.8%. It mines with a 0% Eth mining fee and a 2% AmoVeo mining fee.
