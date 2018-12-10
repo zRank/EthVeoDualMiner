@@ -18,9 +18,9 @@ EthVeoDualMiner.exe -ewal ETH_ADDRESS -vwal AMOVEO_ADDRESS
 * -vwal     AmoVeo Wallet
 * -vpool    AmoVeo Pool
 * -vpsw     AmoVeo Stratum Password
-* -vrat     AmoVeo Ratio
-* -dskip    Device Skip List
-* -dveo     Device Mine AmoVeo Only
+* -vrat     AmoVeo Ratio controls Veo work versus Eth work
+* -dveo     Device List to Mine AmoVeo Only
+* -dskip    Device Skip List for no mining
 
 ## Full Example for EthVeoDualMiner
 ```
