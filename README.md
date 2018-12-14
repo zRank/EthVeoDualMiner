@@ -21,6 +21,8 @@ EthVeoDualMiner.exe -ewal ETH_ADDRESS -vwal AMOVEO_ADDRESS
 * -vrat     AmoVeo Ratio controls Veo work versus Eth work
 * -dveo     Device List to Mine AmoVeo Only
 * -dskip    Device Skip List for no mining
+* -pool     Print pool info with New Work events
+* -date     Print timestamp with New Work events
 
 ## Full Example for EthVeoDualMiner
 ```
@@ -29,12 +31,13 @@ EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stra
 
 ## Advanced Example for EthVeoDualMiner
 ```
-EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOyTm/uIxBUfK5WFb3HA05mk+0kKUEMvrmLTmd/fYx/+g+lK+YmUeah08N63mCqvTieQS5mxXkhQ6SW1irdQbvc= -vpool stratum+tcp://stratum.amoveopool.com:8822 -vrat 1:28,2:40 -dveo 3,4 -dskip 0,5
+EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOyTm/uIxBUfK5WFb3HA05mk+0kKUEMvrmLTmd/fYx/+g+lK+YmUeah08N63mCqvTieQS5mxXkhQ6SW1irdQbvc= -vpool stratum+tcp://stratum.amoveopool.com:8822 -vrat 1:28,2:40 -dveo 3,4 -dskip 0,5 -date -pool
 
 This example shows:
   - Veo ratio (-vrat) of 28 on device 1, and 40 on device 2
   - Only mine AmoVeo on device 2 and 3. (No Ethereum.)
   - Do not use device 0 and 5 for any mining
+  - Print pool and timestamp info with New Work events
 ```
 
 ## Dependencies
