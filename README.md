@@ -24,12 +24,12 @@ EthVeoDualMiner.exe -ewal ETH_ADDRESS -vwal AMOVEO_ADDRESS
 
 ## Full Example for EthVeoDualMiner
 ```
-EthVeoDualMiner.exe -ewal 0x07D47A1C6de0FD4E1608641f27a156b4692Be72e -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOPvbgrso8GakBw2Xxkc1A2lt0OiKg/JqjBuCPfP0bTI/djsM9lgp/8ZMmJgPs/aDlxQL2dT+PYfEywsaRthrmE= -vpool stratum+tcp://stratum.amoveopool.com:8822
+EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOyTm/uIxBUfK5WFb3HA05mk+0kKUEMvrmLTmd/fYx/+g+lK+YmUeah08N63mCqvTieQS5mxXkhQ6SW1irdQbvc= -vpool stratum+tcp://stratum.amoveopool.com:8822
 ```
 
 ## Advanced Example for EthVeoDualMiner
 ```
-EthVeoDualMiner.exe -ewal 0x07D47A1C6de0FD4E1608641f27a156b4692Be72e -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOPvbgrso8GakBw2Xxkc1A2lt0OiKg/JqjBuCPfP0bTI/djsM9lgp/8ZMmJgPs/aDlxQL2dT+PYfEywsaRthrmE= -vpool stratum+tcp://stratum.amoveopool.com:8822 -vrat 1:28,2:40 -dveo 3,4 -dskip 0,5
+EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOyTm/uIxBUfK5WFb3HA05mk+0kKUEMvrmLTmd/fYx/+g+lK+YmUeah08N63mCqvTieQS5mxXkhQ6SW1irdQbvc= -vpool stratum+tcp://stratum.amoveopool.com:8822 -vrat 1:28,2:40 -dveo 3,4 -dskip 0,5
 
 This example shows:
   - Veo ratio (-vrat) of 28 on device 1, and 40 on device 2
