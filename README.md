@@ -1,10 +1,10 @@
 # EthVeoDualMiner
-This is a dual miner for Ethereum and AmoVeo. The hash rate is 98% of Ethminer plus 59-42% of AmoVeo speeds depending on your GPU model.
+This is a dual miner for Ethereum and AmoVeo. The hash rate is 98% of Ethminer plus 55-40% of AmoVeo speeds depending on your GPU model.
 
 EthVeoDualMiner has builds for Windows and Ubuntu, and it works with both NVidia and AMD GPUs.
 
-## Releases
-   [Download EthVeoDualMiner Release](https://github.com/zRank/ethVeoDualMiner/releases)
+## Downloads
+   [Download EthVeoDualMiner Releases](https://github.com/zRank/ethVeoDualMiner/releases)
 
 ## How to run EthVeoDualMiner
 ```
@@ -24,12 +24,12 @@ EthVeoDualMiner.exe -ewal ETH_ADDRESS -vwal AMOVEO_ADDRESS
 * -pool     Print pool info with New Work events
 * -date     Print timestamp with New Work events
 
-## Full Example for EthVeoDualMiner
+## Full Usage for EthVeoDualMiner
 ```
 EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOyTm/uIxBUfK5WFb3HA05mk+0kKUEMvrmLTmd/fYx/+g+lK+YmUeah08N63mCqvTieQS5mxXkhQ6SW1irdQbvc= -vpool stratum+tcp://stratum.amoveopool.com:8822
 ```
 
-## Advanced Example for EthVeoDualMiner
+## Advanced Usage for EthVeoDualMiner
 ```
 EthVeoDualMiner.exe -ewal 0xF8991390e8089173C0365b6bf8e2dfdA54998BC8 -epool stratum+tcp://eu1.ethermine.org:4444 -vwal BOyTm/uIxBUfK5WFb3HA05mk+0kKUEMvrmLTmd/fYx/+g+lK+YmUeah08N63mCqvTieQS5mxXkhQ6SW1irdQbvc= -vpool stratum+tcp://stratum.amoveopool.com:8822 -vrat 1:28,2:40 -dveo 3,4 -dskip 0,5 -date -pool
 
@@ -54,4 +54,4 @@ sudo apt-get install libcurl4-gnutls-dev libjansson-dev libssl-dev
 * EthVeoDualMiner supports Stratum and ETH-Proxy protocols for Ethereum. It has been tested against Ethermine and DwarfPool.
 
 ## Developer Fee
-This software has an effective total developer fee of 0.8%. It mines with a 0% Eth mining fee and a 2% AmoVeo mining fee.
+This software has an effective total developer fee under 1%. It mines with a 0% Eth mining fee and a 2% AmoVeo mining fee.
