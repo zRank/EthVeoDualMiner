@@ -1,7 +1,7 @@
 # EthVeoDualMiner
 This is a dual miner for Ethereum and AmoVeo. You can configure EthVeoDualMiner for many different hash rates of Ethereum and Amoveo:
-* 75% of Amoveo plus 70% of Ethereum with -erat 128 and -vrat depending on GPU
-* 98% of Ethminer plus 50-40% of AmoVeo with -erat 192 and -vrat depending on GPU
+* 75% of Amoveo plus 70% of Ethereum with -erat 128 and -vrat value from table below
+* 98% of Ethminer plus 50-40% of AmoVeo with -erat 192 and -vrat value from table below
 * 90% of Amoveo plus 15% of Ethereum with -erat 128 and -vrat 200
 
 EthVeoDualMiner has builds for Windows and Ubuntu, and it works with both NVidia and AMD GPUs.
@@ -12,6 +12,21 @@ The deafult settings of -erat at 128 and not setting -vrat values will put EthVe
 
 ## Downloads
    [Download EthVeoDualMiner Releases](https://github.com/zRank/ethVeoDualMiner/releases)
+
+## Recommended -vrat configuration
+* 75% of Amoveo plus 70% of Ethereum with -erat 128 and -vrat value from table below
+* 98% of Ethminer plus 50-40% of AmoVeo with -erat 192 and -vrat value from table below
+
+(It is recommended to test other -vrat values near these to see if these values are optimal for your mining rig. These are only guidelines.)
+
+| GPU    | -vrat |
+|--------|-------|
+| 1080TI | ??    |
+| 1070TI | 40    |
+| 1060   | 28    |
+| Vega 64| 25    |
+| Vega 56| 25    |
+| Tesla M60| 96    |
 
 ## How to run EthVeoDualMiner
 ```
